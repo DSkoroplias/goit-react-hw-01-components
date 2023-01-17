@@ -1,0 +1,11 @@
+.status {
+  color: red;
+}
+
+.status.isOnline {
+  color: green;
+}
+
+.name {
+  color: brown;
+}
