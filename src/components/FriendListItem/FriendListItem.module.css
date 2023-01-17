@@ -1,11 +1,30 @@
-.status {
-  color: red;
+.item {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid rgb(141, 135, 135);
 }
 
-.status.isOnline {
-  color: green;
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10%;
+  background: #ced4da no-repeat center/cover;
 }
 
 .name {
-  color: brown;
+}
+
+.status {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.status.isOnline {
+  background-color: green;
 }

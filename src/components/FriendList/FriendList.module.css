@@ -1,11 +1,8 @@
-.status {
-  background-color: red;
-}
-
-.status.isOnline {
-  background-color: green;
-}
-
-.name {
-  color: brown;
+.friend_list {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
 }

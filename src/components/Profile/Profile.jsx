@@ -2,8 +2,6 @@ import { ProfileList } from '../ProfileList/ProfileList';
 
 import PropTypes from 'prop-types';
 
-// import css from './Profile.module.css';
-
 export const Profile = ({ items }) => {
   return (
     <>
@@ -22,12 +20,6 @@ export const Profile = ({ items }) => {
     </>
   );
 };
-
-// export default Profile;
-
-// Profile.defaultProps = {
-//   items: [],
-// };
 
 Profile.propTypes = {
   items: PropTypes.arrayOf(
