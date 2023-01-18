@@ -20,10 +20,7 @@ const TransactionHistory = ({ items }) => {
               <th>Currency</th>
             </tr>
           </thead>
-          <tbody>
-            {elements}
-            {elements}
-          </tbody>
+          <tbody>{elements}</tbody>
         </table>
       </div>
     </>
